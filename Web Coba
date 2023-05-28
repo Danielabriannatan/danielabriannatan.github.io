@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Album example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/editor.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Daniel Abrian Natan Purnomo</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Welcome To My Portofolio</h1>
+          
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p><p class="lead text-muted"><p style="language:en-US;line-height:121%;margin-top:.05pt;margin-bottom:0pt;
+margin-left:.01in;margin-right:.01in;text-indent:.95in;text-align:right;
+direction:ltr;unicode-bidi:embed;mso-line-break-override:none;word-break:normal;
+punctuation-wrap:hanging"><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">I</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.75pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">am</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">a</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.5pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">person</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.8pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">who</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">is</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.2pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">engaged</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.65pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">in</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.7pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">the</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.8pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">world</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.8pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">of </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-4.09pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">&nbsp;</span><span style="font-size:
+16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-font-family:+mn-ea;mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-theme-font:minor-fareast;color:#091A44;letter-spacing:.5pt;
+mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;
+mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">marketing.
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.55pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">After </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.6pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">finding </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.75pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">my </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.55pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">interest </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.65pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">in </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.4pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">digital </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.45pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">&nbsp;marketing, </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;
+mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">I </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:.45pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">learn
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.3pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Digital </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.5pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Marketing </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.45pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Program </span><span style="font-size: 16pt; font-family: &quot;Microsoft Sans Serif&quot;; color: rgb(9, 26, 68); letter-spacing: 0.95pt; opacity: 1;">to </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.65pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">build </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.7pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">&nbsp;</span><span style="font-size:
+16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-font-family:+mn-ea;mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-theme-font:minor-fareast;color:#091A44;letter-spacing:.75pt;
+mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;
+mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">my </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:.1pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">skills
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.55pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">and </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.45pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">learn </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.7pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">the </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">sets </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.8pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">of </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.55pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">in-demand </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">skills </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.95pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">for </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:1.0pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">&nbsp;</span><span style="font-size:
+16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-font-family:+mn-ea;mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-theme-font:minor-fareast;color:#091A44;letter-spacing:.4pt;
+mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;
+mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">today's</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.2pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">era.</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">I</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.05pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">also</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.2pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">have</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.05pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">skills</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.65pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">in</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.05pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Google</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.05pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Ads </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Search </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.55pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">and </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-4.09pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">&nbsp;</span><span style="font-size:
+16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-font-family:+mn-ea;mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;
+mso-fareast-theme-font:minor-fareast;color:#091A44;letter-spacing:.1pt;
+mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid;
+mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">Google</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">Analytics.</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">I</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;mso-ascii-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;mso-bidi-font-family:
+&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;color:#091A44;
+letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:
+solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:100.0%">
+</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.75pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">am</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.8pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">now</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.4pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">ready</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.15pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.95pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">for</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.7pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">the</span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:-.1pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%"> </span><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.6pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">next</span></p>
+
+<p style="language:en-US;line-height:normal;margin-top:4.05pt;margin-bottom:
+0pt;margin-left:0in;margin-right:.01in;text-align:right;direction:ltr;
+unicode-bidi:embed;mso-line-break-override:none;word-break:normal;punctuation-wrap:
+hanging"><span style="font-size:16.0pt;font-family:&quot;Microsoft Sans Serif&quot;;
+mso-ascii-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:&quot;Microsoft Sans Serif&quot;;mso-fareast-theme-font:minor-fareast;
+color:#091A44;letter-spacing:.6pt;mso-font-kerning:12.0pt;language:en-US;
+mso-style-textfill-type:solid;mso-style-textfill-fill-color:#091A44;mso-style-textfill-fill-alpha:
+100.0%">opportunities.</span></p></p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59532%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59532%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59533%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59533%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59534%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59534%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59535%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59535%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59535%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59535%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59536%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59536%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59537%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59537%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d59539%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d59539%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22272%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20272%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18862d5953a%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18862d5953a%22%3E%3Crect%20width%3D%22272%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2288.82500076293945%22%20y%3D%22118.74000034332275%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../../js/vendor/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="225" viewBox="0 0 272 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="14" style="font-weight:bold;font-size:14pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
+</html>
